@@ -1,7 +1,9 @@
 # Luigi Git
 Uses Luigi to create a data pipeline.  
 Creates a date.txt, time.txt and merges them into datetime.txt  
-Automatically commits files into /results/{id=1}/
+Automatically commits files into /results/{id=1}/'
+
+datetime.txt: https://github.com/DanLearningPython/luigi_git/blob/master/results/1/datetime.txt
 
 Usage:
 
