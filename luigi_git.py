@@ -94,7 +94,6 @@ class DateTimeTask(luigi.Task):
             )
         ]
 
-
     def push_to_git(self):
 
         current_datetime = time.strftime("%c")
