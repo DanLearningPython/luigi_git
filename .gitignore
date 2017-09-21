@@ -1,0 +1,17 @@
+# IDE stuff
+.idea/*
+workspace.xml
+
+# Mac stuff
+.DS_Store
+
+# Logs
+*.dot
+*.vcg
+*.log
+luigi-server*
+logs/*
+
+# Virtual env
+venv/*
+venv/
