@@ -46,7 +46,6 @@ class CreateDateTimeFilesTask(luigi.Task):
     id = luigi.Parameter(default=0)
 
     def run(self):
-        print("creating files")
         with open(self.input()[0].path, 'r') as date_file:
             current_date = date_file.read()
         with open(self.input()[1].path, 'r') as time_file:
@@ -94,6 +93,7 @@ class DateTimeTask(luigi.Task):
                 id=self.id
             )
         ]
+
 
     def push_to_git(self):
 
