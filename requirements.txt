@@ -1,1 +1,2 @@
 luigi==2.3.2
+gitpython==2.1.5
